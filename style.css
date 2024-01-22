@@ -22,9 +22,23 @@ a{
     text-decoration: none;
 }
 
+body{
+    background: #FFF;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+.top,
+.main, 
+.brand__logo{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .top{
-    padding: 40px 373px 100px 373px;
+    padding: 40px 373px;    
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 460px;
 }
@@ -41,25 +55,38 @@ a{
     font-family: Gilroy-Bold;
     color: #000000;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .be{
     font-family: Gilroy-Bold;
     color: #F25822;
     font-weight: bold;
+    font-size: 24px;
+}
+
+.upper__menu a,
+.features 
+{
+    color: #000000;
 }
 
 .upper__menu{
+    display: flex;    
     font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
     background: #FFF;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
 }
 
 .upper__menu__home{
     font-family: Gilroy-SemiBold;
-    color: #F25822;    
+    color: #F25822 !important;    
 }
 
 .features__icon{
@@ -67,7 +94,7 @@ a{
 }
 
 .upper__menu__getstarted{
-    color: #FFF;    
+    color: #FFF !important;    
     display: flex;
     width: 120px;
     padding: 13px 10px;
@@ -80,11 +107,10 @@ a{
 }
 
 .main{
-    display: flex;
-    padding: 40px 373px 100px 373px;
-    width: 1174px;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+    padding: 40px 373px;
 }
 
 .home__meta{
@@ -107,7 +133,7 @@ a{
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 72px */
+    line-height: 120%;
 }
 
 .home__meta__title__text2{
@@ -116,16 +142,16 @@ a{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 28px */
+    line-height: 140%;
 }
 
 .buttom__menu{
     font-family: Gilroy-Bold;
     color: #000;
     display: flex;
+    justify-content: start;
     align-items: center;
     gap: 24px;
-    align-self: stretch;
 }
 
 .buttom__menu__btn{
@@ -160,10 +186,7 @@ a{
 
 .brand__logo{
     display: flex;
-    width: 1920px;
-    padding: 30px 0px;
+    justify-content: space-between;
+    padding: 243px 0;
     gap: 48px;
-    background: #FFF;
-    justify-content: center;
-    align-items: center;
 }
