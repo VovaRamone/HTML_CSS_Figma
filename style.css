@@ -33,6 +33,7 @@ body{
 .brand__logo{
     max-width: 1170px;
     margin: 0 auto;
+    padding: 40px 5%;
 }
 
 .top{
@@ -89,7 +90,7 @@ body{
     color: #F25822 !important;    
 }
 
-.features__icon{
+.upper__menu__features__icon{
     display: flex;
 }
 
@@ -110,7 +111,7 @@ body{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 32px;
-    padding: 40px 373px;
+    padding: 40px 5%;
 }
 
 .home__meta{
@@ -157,8 +158,7 @@ body{
 .buttom__menu__btn{
     color: #FFF;
     display: flex;
-    width: 140px;
-    padding: 16px 0px;
+    padding: 1em 2em;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -169,7 +169,6 @@ body{
 
 .buttom__menu__watch__logo{
     display: flex;
-    padding: 30px 0px;
     background: #FFF;
 }
 
@@ -179,8 +178,8 @@ body{
 
 .home__meta__img{
     display: flex;
-    width: 545px;
-    height: 375px;
+    max-width: 100%;
+    height: auto;
     flex-shrink: 0;    
 }
 
@@ -188,5 +187,250 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 243px 0;
-    gap: 48px;
+    gap: 3%;
+}
+
+.features {
+  width: 100%;
+  background: #FFF;
+}
+
+.features .background {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.features .background .features02 {
+  background: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features .background .features01 {
+  border-radius: 15px;
+}
+
+.features .background .features03 {
+  border-radius: 15px;
+}
+
+.features .background .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+}
+
+.features .background .text {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 310px;
+  margin-top: 17px;
+}
+
+.features .background .buttom {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 25px;
+  margin-bottom: 20px
+}
+
+.servise {
+  width: 100%;
+  background: #FAFAFA;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.servise .secation__title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.servise .secation__title .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.servise .secation__title .secation {
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 680px;
+  margin-bottom: 48px;
+}
+
+.servise .block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 92px;
+}
+
+.servise .block .servise01 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.servise .block .servise01 .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 22px;
+  margin-top: 15px;
+}
+
+.servise .block .servise01 .text {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 310px;
+  margin-bottom: 39px;
+}
+
+.servise .block .servise01 .button {
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  border: 0;
+  color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  margin-bottom: 50px;
+}
+
+.servise .block .servise02 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.servise .block .servise02 .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.servise .block .servise02 .text {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 310px;
+  margin-bottom: 39px;
+}
+
+.servise .block .servise02 .button {
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  border: 0;
+  color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  margin-bottom: 50px;
+}
+
+.servise .block .servise03 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.servise .block .servise03 .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.servise .block .servise03 .text {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 310px;
+  margin-bottom: 39px;
+}
+
+.servise .block .servise03 .button {
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  border: 0;
+  color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  margin-bottom: 50px;
 }
